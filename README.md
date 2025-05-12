@@ -2,7 +2,7 @@
 - **Link repo front-end user gốc:** https://github.com/ToitenDang/PetsShop_client
 - **Link repo front-end admin gốc:** https://github.com/PhamHuuTuan21110713/PetShop_Management
 - **Link repo back-end gốc:** https://github.com/PhamHuuTuan21110713/PetsShop_API
-
+## Tài khoản mẫu
 - **Tài khoản user mẫu:** ptuanaws@gmail.com - 12345678
 - **Tài khoản admin mẫu:** admin@gmail.com - 12345678
 
