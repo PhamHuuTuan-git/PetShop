@@ -72,6 +72,7 @@
 ## Phía người dùng
 - **Đăng ký + Đăng nhập:** Người dùng cần đăng ký, đăng nhập thông qua email và xác thực tài khoản bằng mã được gửi qua email.
 - **Lọc + Tìm kiếm:** Người dùng tìm kiếm sản phẩm theo tên, giá cả, khuyến mãi, ... và sắp xếp theo tùy chọn.
+- **Quản lý tin nhắn:** Nhắn tin và nhận thông báo tin nhắn với thời gian thực.
 - **Đặt lịch + Quản lý thông báo với thời gian thực:** Người dùng đặt 1 lịch hẹn dịch vụ tới quản trị, vời thời gian thực, và nhận được thông báo xác nhận với thời gian thực.
 - **Quản lý giỏ hàng**
 - **Quản lý tài khoản cá nhân:** Quản lý thông tin cá nhân, đơn hàng, thống kê hoạt động theo thời gian.
