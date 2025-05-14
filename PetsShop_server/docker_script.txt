@@ -1,0 +1,9 @@
+docker build -t petshop_backend .
+
+docker run --env-file .env -dp 8080:8080 petshop_backend
+
+docker run -e MONGO_URI="mongodb+srv://..." \
+           -e CLOUDINARY_NAME="..." \
+           -e CLOUDINARY_KEY="..." \
+           -e API_URL="http://localhost:8080" \
+           -dp 8080:8080 petshop_backend

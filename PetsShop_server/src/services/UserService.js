@@ -5,11 +5,11 @@
 // const JWTService = require("./JWTService");
 // const nodemailer = require("nodemailer");
 // const jwt = require("jsonwebtoken");
-import User from '~/models/UserModel';
-import Order from '~/models/OrderModel';
+import User from '../models/UserModel.js';
+import Order from '../models/OrderModel.js';
 import bcrypt from 'bcrypt';
 import { v2 as cloudinary } from "cloudinary";
-import JWTService from './JWTService';
+import JWTService from './JWTService.js';
 import nodemailer from 'nodemailer';
 import dotenv from "dotenv";
 dotenv.config();
@@ -218,7 +218,7 @@ const registerUser = (data) => {
             html: `
                 <p>Chào bạn,</p>
                 <p>Hãy nhấn vào nút dưới đây để xác nhận email và kích hoạt tài khoản:</p>
-                <a href="http://localhost:8080/api/verify-email?token=${access_token}" 
+                <a href="${process.env.API_URL}/api/verify-email?token=${access_token}" 
                    style="padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;">
                    Xác nhận tài khoản
                 </a>
