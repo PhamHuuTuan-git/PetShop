@@ -1,9 +1,6 @@
 
 // CSS
 import mystyles from './Appbar.module.scss';
-
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 // Function components
 import ShoppingCart from '~/components/ShoppingCard/ShoppingCard';
 import Profile from '~/components/Profile/Profile';
@@ -13,7 +10,6 @@ import Category from '~/components/Category/Category';
 
 import Box from '@mui/material/Box';
 import PetsIcon from '@mui/icons-material/Pets';
-import ModeSelect from '~/components/ModeSelect/ModeSelect';
 
 import { Divider } from '@mui/material';
 import { useAuth } from "~/components/Authentication/Authentication";

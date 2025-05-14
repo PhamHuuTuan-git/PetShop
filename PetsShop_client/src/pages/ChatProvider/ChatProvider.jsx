@@ -1,10 +1,9 @@
 
 import { createContext, useCallback, useEffect, useState } from "react"
-import { useAuth } from "~/components/Authentication/authentication";
-import { ChatFetch, MessageFetch, NotifyFetch, UserFetch } from "~/REST-API-client";
+import { useAuth } from "~/components/Authentication/Authentication";
+import { ChatFetch, MessageFetch, NotifyFetch } from "~/REST-API-client";
 import { io } from "socket.io-client";
 import { SOCKET_URL } from "~/constants";
-import { ADMIN_ID } from "~/utils/constants";
 export const ChatContext = createContext();
 export const ChatProvider = ({ children }) => {
     const [userChats, setUserChats] = useState(null);
